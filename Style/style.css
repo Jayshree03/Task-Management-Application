@@ -1,0 +1,136 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 17vh;
+    background-image: linear-gradient(#e28ba1, #643843);
+    align-items: center;
+}
+
+.header h1 {
+    color: #FFFFFF;
+    width: 80vw;
+    text-align: center;
+    font-size: 13vh;
+}
+
+.header .arrow_left {
+    width: 10vw;
+    height: 17vh;
+}
+
+.header .arrow_right {
+    width: 10vw;
+    height: 17vh;
+}
+
+hr {
+    border: 3px solid #42667a;
+}
+
+.add-section {
+    padding-left: 8vw;
+    width: 80vw;
+    height: 10vh;
+    padding-right: 10vw;
+}
+
+.add-section h1 {
+    color: #42667a;
+    font-size: 6vh;
+    padding-top: 1.5vh;
+}
+
+#add-form {
+    padding-top: 3vh;
+    display: flex;
+}
+
+.add-form-task {
+    width: 30vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #643843;
+    color: #643843;
+    font-size: 3.5vh;
+}
+
+.add-form-deadline {
+    width: 15vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #643843;
+    color: #643843;
+    font-size: 3.5vh;
+}
+
+.add-form-priority {
+    width: 15vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #643843;
+    color: #643843;
+    font-size: 3.5vh;
+}
+
+.add-form-desc {
+    width: 20vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #643843;
+    color: #643843;
+    font-size: 3.5vh;
+}
+
+.add-form-submit {
+    background-image: linear-gradient(#e28ba1, #643843);
+    color: #FDF0D1;
+    width: 20vw;
+    font-size: 4.5vh;
+    border-radius: 25px;
+    border: 2px solid #FDF0D1;
+}
+
+.add-form-submit:hover {
+    background-image: linear-gradient(#dd6b87, #612e3a);
+    font-size: 5vh;
+}
+
+.main-right-image {
+    border-radius: 25px;
+    float: right;
+    width: 30vw;
+    height: 70vh;
+    border: 2px solid #FDF0D1;
+}
+#main-priority{
+    font-size: 3vh;
+    color: #42667a;
+    width: 65vw;
+}
+.high-priority-task{
+    background-color: rgb(182, 102, 102);
+}
+.medium-priority-task{
+    background-color: rgb(196, 177, 116);
+}
+.low-priority-task{
+    background-color: #FDF0D1;
+}
+.no-priority-task{
+    background-color: #FFFFFF;
+}

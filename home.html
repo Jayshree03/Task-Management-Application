@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Task Management Application</title>
+    <!--Google Font Jockey One-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+    <!--Google Font Salsa-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <!--Icon image-->
+    <link rel="icon" href="Image/logo.jpg">
+    <!--Style included here-->
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+    <div class="conatiner">
+        <hr>
+        <div class="header">
+            <img src="Image/arrow_left.png" class="arrow_left">
+            <h1>Task Management System</h1>
+            <img src="Image/arrow_right.png" class="arrow_right">
+        </div>
+        <hr>
+        <div class="add-section">
+            <h1><strong>Add New Task along with the following details:</strong></h1>
+            <form id="add-form">
+
+                <input class="add-form-task" type="text" name="task" placeholder="Enter new task" required>
+                <pre>     </pre>
+                <input class="add-form-deadline" type="date" name="deadline" required>
+                <pre>     </pre>
+
+                <select class="add-form-priority" name="priority">
+                    <option value="no">No Priority</option>
+                    <option value="high">High Priority</option>
+                    <option value="medium">Medium Priority</option>
+                    <option value="low">Low Priority</option>
+                </select>
+                <pre>     </pre>
+                <input class="add-form-desc" type="text" name="description" placeholder="Enter the description of Task">
+                <pre>     </pre>
+                <button type="submit" class="add-form-submit">Add</button>
+            </form>
+        </div>
+        
+        <div class="main">
+            <br><br><br>
+            <div id="main-priority">
+                <div class="high-priority-task">
+                    <h1>High Priority Task:</h1>
+                </div>
+                <div class="medium-priority-task">
+                    <h1>Medium Priority Task:</h1>
+                </div>
+                <div class="low-priority-task">
+                    <h1>Low Priority Task:</h1>
+                </div>
+                <div class="no-priority-task">
+                    <h1>No Priority Task:</h1>
+                </div>
+            </div>
+            <img src="Image/logo.jpg" class="main-right-image">
+        </div>
+    </div>
+</body>
+
+</html>

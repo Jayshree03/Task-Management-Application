@@ -42,7 +42,7 @@ hr {
     padding-left: 8vw;
     width: 80vw;
     height: 10vh;
-    padding-right: 10vw;
+    padding-right: 8vw;
 }
 
 .add-section h1 {
@@ -110,17 +110,24 @@ hr {
     font-size: 5vh;
 }
 
+.main{
+    display:flex;
+}
+
 .main-right-image {
     border-radius: 25px;
     float: right;
-    width: 30vw;
-    height: 70vh;
+    width: 25vw;
+    height: 60vh;
     border: 2px solid #FDF0D1;
+    margin-top: 15vh;
 }
 #main-priority{
     font-size: 3vh;
     color: #42667a;
     width: 65vw;
+    margin-left: 8vh;
+    margin-top: 15vh;
 }
 .high-priority-task{
     background-color: rgb(182, 102, 102);

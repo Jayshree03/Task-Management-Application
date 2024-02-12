@@ -1,0 +1,23 @@
+/*color palatte #824A7A #82504A #814957 #744A82 #825A4A #847258 #D7C2C6*/
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background-color: #824A7A;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-body{
+    background-color: #D7C2C6;
+    width: 40vw;
+    height: 60vh;
+    
+}
